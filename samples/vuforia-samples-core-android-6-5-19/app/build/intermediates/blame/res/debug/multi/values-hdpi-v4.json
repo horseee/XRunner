@@ -1,0 +1,66 @@
+[
+    {
+        "outputFile": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 48,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 49,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values-hdpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 49,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endLine": 8,
+                    "endColumn": 13,
+                    "endOffset": 426
+                },
+                "from": {
+                    "file": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

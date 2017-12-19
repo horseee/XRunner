@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/welcome.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/welcome.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/figure.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/figure.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/lock.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/lock.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/panel.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/panel.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/back.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/back.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/task.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/task.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/gift.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/gift.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/default_img.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/default_img.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/mission.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/mission.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/personal_icon.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/personal_icon.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/setting.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/setting.png"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-hdpi/name.png",
+        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-hdpi/name.png"
+    }
+]

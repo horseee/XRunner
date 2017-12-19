@@ -1,0 +1,7 @@
+#Tue Dec 19 23:30:24 CST 2017
+base.0=/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7500bd05d842668e17eae59badf64c570fa901e8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1fa465596d25a721cc2a327ce29f163f48f845d1/classes.dex
+base.1=/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1fa465596d25a721cc2a327ce29f163f48f845d1
+file.0=/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7500bd05d842668e17eae59badf64c570fa901e8/classes.dex

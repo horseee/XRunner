@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="30dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="50dp"
+    android:background="#C9C9C9">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/personal_icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/personal_icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/personal_icon"
+        android:layout_marginTop="60dp"
+        android:text="@string/username"
+        android:textColor="#555555"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:hint="@string/username_hint"
+        android:textColor="#999999"
+        android:background="@drawable/corner_radius"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:text="@string/password"
+        android:textColor="#555555"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_toRightOf="@+id/textView3"
+        android:textColor="#999999"
+        android:ems="10"
+        android:background="@drawable/corner_radius"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:text="@string/confirm"
+        android:textColor="#555555"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_marginLeft="0dp"
+        android:textColor="#999999"
+        android:ems="10"
+        android:background="@drawable/corner_radius"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/gender"
+        android:textColor="#555555"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:id="@+id/gender">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_male"
+            android:textColor="#555555"
+            android:checked="true"
+            android:id="@+id/male" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_female"
+            android:textColor="#555555"
+            android:checked="false"
+            android:id="@+id/female"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/gender"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/age"
+        android:textColor="#555555"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/gender"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#999999"
+        android:ems="10"
+        android:background="@drawable/corner_radius" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/btn_radius"
+        android:text="@string/create_account"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

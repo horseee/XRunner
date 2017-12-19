@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+def VUFORIA_SDK_DIR = '../../..'
+def NATIVE_LIB_DIR = 'build/lib'
+def JAR_DIR = 'build/java/vuforia'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDir "$VUFORIA_SDK_DIR/$NATIVE_LIB_DIR/"
+    }
+
+    defaultConfig {
+        applicationId "com.vuforia.samples.VuforiaSamples"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 600
+        versionName "6.0"
+    }
+
+    archivesBaseName = rootProject.projectDir.getName()
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            ndk {
+                abiFilters "armeabi", "armeabi-v7a", "armeabi-v8a", "x86"
+            }
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            ndk {
+                abiFilters "armeabi", "armeabi-v7a", "armeabi-v8a", "x86"
+            }
+        }
+    }
+
+}
+
+dependencies {
+    compile files('libs/Vuforia.jar')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:26.0.0-alpha1'
+    compile 'com.google.android:support-v4:r7'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile files('libs/AMap_Location_V3.6.1_20171012.jar')
+    compile files('libs/AMap_Search_V5.3.1_20170817.jar')
+    compile files('libs/Android_Map3D_SDK_V5.4.0_20170928.jar')
+}
