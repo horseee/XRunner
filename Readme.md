@@ -17,6 +17,4 @@ An android app with AR.
 Horseee:   
 JamieCCCCC:
 
-And API by the whole group
-
 Copyright © 2017年 JamieCCCCC, horseee from ZJU . All rights reserved.
