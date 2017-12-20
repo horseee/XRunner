@@ -3,57 +3,57 @@
 
     <item
         is-multidex="true"
-        jar="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3d87f24c15db1b203738522a949721b5efa22179">
-        <dex dex="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1fa465596d25a721cc2a327ce29f163f48f845d1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7500bd05d842668e17eae59badf64c570fa901e8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/libs/AMap_Search_V5.3.1_20170817.jar"
+        jar="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/libs/AMap_Search_V5.3.1_20170817.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="b4e1d1d93f686f1a6efe4e49d798b27801d4d301">
-        <dex dex="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Search_V5.3.1_20170817_db4bda8fba3d8775c3d3e176d72c3cf74beca95c/classes.dex" />
+        <dex dex="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Search_V5.3.1_20170817_29d8f877ac6cb38768028bc875b78ce46cdec3b0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/libs/Vuforia.jar"
+        jar="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="a3b41c5bc11847dafdd40be6ec904db2f54b332a">
-        <dex dex="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/Vuforia_60a85cf234f828f81559fccdcbe20038faea62fc/classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f1d33021c6f2e973ed6a9a6060a48d81c4371c3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/libs/Android_Map3D_SDK_V5.4.0_20170928.jar"
+        jar="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/libs/Android_Map3D_SDK_V5.4.0_20170928.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="4e6ca382790aa5ca89094e600da12f1a12932870">
-        <dex dex="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/Android_Map3D_SDK_V5.4.0_20170928_d03f9fd7b8e7bae25bc3915013a44bcad9d15884/classes.dex" />
+        <dex dex="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/Android_Map3D_SDK_V5.4.0_20170928_869a13291ee1020dd8bac293b413f0ff9bbc9220/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/libs/AMap_Location_V3.6.1_20171012.jar"
+        jar="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/libs/Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a3b41c5bc11847dafdd40be6ec904db2f54b332a">
+        <dex dex="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/Vuforia_d686fb301b731918f911be0ddb501fb0a93742cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/libs/AMap_Location_V3.6.1_20171012.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="538dbe4979c1a69aa5e15862a245288a585335ea">
-        <dex dex="/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Location_V3.6.1_20171012_88cbbfdc5ac682cac7915b2291f147d219ab7b0b/classes.dex" />
+        <dex dex="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Location_V3.6.1_20171012_f0dd3b97a48ffa75fb05a122cb4f218f733ae493/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0fd93b9202184ee9dd4e3c2bb1d96d732decf6f1">
+        <dex dex="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_10b186f9d5d7f7161d119d94c7e0337d7bc23be3/classes.dex" />
     </item>
 
 </items>

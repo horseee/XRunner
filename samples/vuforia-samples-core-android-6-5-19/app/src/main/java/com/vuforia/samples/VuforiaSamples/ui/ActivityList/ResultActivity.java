@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
+import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -103,9 +104,8 @@ public class ResultActivity extends Activity {
         }
         PaintPath();
 
-
-
-        Button backButton = (Button) findViewById(R.id.Back);
+        final Button backButton = (Button) findViewById(R.id.Back);
+        backButton.setEnabled(false);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -116,6 +116,17 @@ public class ResultActivity extends Activity {
             }
 
         });
+
+        new CountDownTimer(1000, 1000) {
+
+            public void onTick(long millisUntilFinished) {
+            }
+            public void onFinish() {
+                getscreenBitmap();
+                backButton.setEnabled(true);
+                Log.e(TAG, "done!");
+            }
+        }.start();
     }
 
     private void getscreenBitmap() {
@@ -131,7 +142,7 @@ public class ResultActivity extends Activity {
             @Override
             public void onMapScreenShot(Bitmap bitmap, int status) {
                 Log.e("21", "1111");
-                mdbhelper.insertUserPathImage(Username, dateID, bitmap);
+                //mdbhelper.insertUserPathImage(Username, dateID, bitmap);
             }
         });
     }

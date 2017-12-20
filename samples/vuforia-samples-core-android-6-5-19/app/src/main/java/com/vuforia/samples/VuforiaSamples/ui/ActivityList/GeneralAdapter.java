@@ -58,7 +58,7 @@ public class GeneralAdapter extends BaseAdapter{
             viewHolder = new ViewHolder();
             convertView = mLayoutInflater.inflate(R.layout.history_list, null);
 
-            //viewHolder.mpathimage = (ImageView) convertView.findViewById(R.id.history_img);
+            viewHolder.mpathimage = (ImageView) convertView.findViewById(R.id.history_img);
             viewHolder.mdate = (TextView) convertView.findViewById(R.id.history_date);
             viewHolder.mdis = (TextView) convertView.findViewById(R.id.history_dist);
             viewHolder.mdur = (TextView) convertView.findViewById(R.id.history_time);

@@ -1,34 +1,34 @@
 [
     {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
         "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/avd_show_password.xml"
     },
     {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/avd_hide_password.xml"
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/horseee/.android/build-cache/27764c3c2199eb5b6be72682f462c20a4d4b6fd8/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/horseee/.android/build-cache/10b3dd27c3d8944d926655f83c50383e506cecf6/output/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

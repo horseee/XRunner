@@ -23,27 +23,33 @@ public class FigureActivity extends AppCompatActivity{
     private TabAdaper tabAdaper;
     private String[] titles;
     private ActionBar actionBar;
-    private Button select;
+    private TextView tbGotNumber;
     private TextView tbImage;
     private String name;
+    private DBHelper mdbhelper;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_figure);
+        mdbhelper = new DBHelper(this);
+
         actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        select = (Button)findViewById(R.id.tb_select);
         tbImage = (TextView) findViewById(R.id.tb_img);
         titles = getResources().getStringArray(R.array.tab_title);
         tabAdaper = new TabAdaper(getSupportFragmentManager(), titles);
         tb_layout = (TabLayout)findViewById(R.id.tb_layout);
+        tbGotNumber = (TextView) findViewById(R.id.tb_count);
         viewPager = (ViewPager)findViewById(R.id.viewpager);
         viewPager.setAdapter(tabAdaper);
+
         Intent intent = getIntent();
         if(intent != null) {
             name = intent.getStringExtra("UserID");
             Log.e("UserID" , name);
         }
+
         tb_layout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(final TabLayout.Tab tab) {
@@ -51,24 +57,33 @@ public class FigureActivity extends AppCompatActivity{
                 switch (tab.getPosition()){
                     case 0:
                         tbImage.setBackgroundResource(R.drawable.mad);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 0)));
                         break;
                     case 1:
                         tbImage.setBackgroundResource(R.drawable.happy);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 1)));
                         break;
                     case 2:
                         tbImage.setBackgroundResource(R.drawable.surprise);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 2)));
                         break;
                     case 3:
                         tbImage.setBackgroundResource(R.drawable.neutral);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 3)));
                         break;
                     case 4:
                         tbImage.setBackgroundResource(R.drawable.sad);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 4)));
                         break;
                     case 5:
                         tbImage.setBackgroundResource(R.drawable.laugh);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 5)));
                         break;
+                    case 6:
+                        tbImage.setBackgroundResource(R.drawable.surprise);
+                        tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 6)));
                 }
-                select.setOnTouchListener(new View.OnTouchListener(){
+                /*select.setOnTouchListener(new View.OnTouchListener(){
                     @Override
                     public boolean onTouch(View v, MotionEvent event){
                         switch (event.getAction()) {
@@ -78,8 +93,6 @@ public class FigureActivity extends AppCompatActivity{
                             case MotionEvent.ACTION_UP:
                                 select.setBackgroundResource(R.drawable.start_radius);
                                 Intent i = new Intent(FigureActivity.this, MainActivity.class);
-                                i.putExtra("Model", tab.getPosition());
-                                i.putExtra("UserID", name);
                                 Log.e("Tab Pos ", tab.getPosition()+"");
                                 startActivity(i);
                                 finish();
@@ -87,7 +100,7 @@ public class FigureActivity extends AppCompatActivity{
                         }
                         return true;
                     }
-                });
+                });*/
             }
 
             @Override

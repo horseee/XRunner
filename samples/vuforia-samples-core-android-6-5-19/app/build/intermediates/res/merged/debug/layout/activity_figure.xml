@@ -28,17 +28,20 @@
         android:layout_below="@+id/tb_layout"
         android:padding="40dp"
         android:background="@color/white"/>
-    <Button
-        android:id="@+id/tb_select"
-        android:layout_width="110dp"
-        android:layout_height="110dp"
+    <TextView
+        android:id="@+id/tb_count"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
-        android:text="Select"
-        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:text="Got 5"
+        android:enabled="false"
+        android:gravity="center"
+        android:textSize="30sp"
         android:textColor="@color/white"
         android:textStyle="bold"
+        android:textAlignment="center"
         android:background="@drawable/start_radius"/>
 
 </RelativeLayout>

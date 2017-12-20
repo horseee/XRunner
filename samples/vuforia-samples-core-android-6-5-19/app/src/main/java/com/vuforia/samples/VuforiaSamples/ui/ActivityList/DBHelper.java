@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.PorterDuff;
 import android.util.Log;
 
 import java.io.ByteArrayInputStream;
@@ -279,7 +280,6 @@ public class DBHelper extends SQLiteOpenHelper{
             tempExp = cursor.getInt(cursor.getColumnIndex("exp"));
             Log.e("tempdis", ""+tempDis);
         }
-        distance += 500.0;
         tempDis += distance;
         tempExp += distance;
         if (distance > 100) tempExp += 50;
@@ -290,7 +290,7 @@ public class DBHelper extends SQLiteOpenHelper{
         else if (tempExp < 6000) level = 4;
         else if (tempExp < 8000) level = 5;
         else if (tempExp < 10000) level = 6;
-        else level = tempExp / 2000 + 2;
+        else level = (tempExp + 11000) / 3000;
 
         Log.e("TempLevel", ""+level);
         Log.e("TempExp", ""+tempExp);
@@ -301,6 +301,45 @@ public class DBHelper extends SQLiteOpenHelper{
         String where = UserID + "=" + ID;
         // Update the row with the specified index with the new values.
         db.update("User_Level", updatedValues, selection, selectionArgs);
+    }
+
+    public void updateExpandLevel(String ID, int ModelID)
+    {
+        int tempExp = 0;
+        int level;
+        float tempDis;
+        float[] ModelExp = {30, 70, 130, 150, 200, 250, 280, 350, 500, 700, 800};
+        String selection = "UserID = ?";
+        String[] selectionArgs = {ID};
+
+        SQLiteDatabase db = getWritableDatabase();
+
+        // (String table, String[] columns, String selection, String[] selectionArgs,String groupBy, String having, String orderBy, String limit)
+        Cursor cursor = db.query(LevelDatabase, null, selection, selectionArgs, null, null, null);
+        if (cursor!=null) {
+            cursor.moveToFirst();
+            tempDis = cursor.getFloat(cursor.getColumnIndex("dis"));
+            tempExp = cursor.getInt(cursor.getColumnIndex("exp"));
+            Log.e("tempEXP", ""+tempExp);
+        }
+        else return;
+
+        tempExp += ModelExp[ModelID];
+        if (tempExp < 500) level = 1;
+        else if (tempExp < 2000) level = 2;
+        else if (tempExp < 4000) level = 3;
+        else if (tempExp < 6000) level = 4;
+        else if (tempExp < 8000) level = 5;
+        else if (tempExp < 10000) level = 6;
+        else level = ((tempExp + 11000) / 3000);
+
+        ContentValues updatedValues = new ContentValues();
+        updatedValues.put("dis", tempDis);
+        updatedValues.put("exp", tempExp);
+        updatedValues.put("level", level);
+        // Update the row with the specified index with the new values.
+        db.update("User_Level", updatedValues, selection, selectionArgs);
+
     }
 
     public void updateModelData(String ID, int ModelID, boolean add, int number)
@@ -360,6 +399,20 @@ public class DBHelper extends SQLiteOpenHelper{
         String[] selectionArgs = {dateID};
         Log.e(TAG, "Start Querying");
         return db.query(PointDatabase, null, selection, selectionArgs, null, null, "RecordID ASC");
+    }
+
+    public int GetModelData(String ID, int ModelID) {
+        SQLiteDatabase db = getWritableDatabase();
+
+        String selection = "UserID = ? and ModelID = ?";
+        String[] selectionArgs = {ID, String.valueOf(ModelID)};
+        Cursor cursor = db.query("User_Model", null, selection, selectionArgs, null, null, null);
+        if (cursor != null) {
+            cursor.moveToFirst();
+            int Count = cursor.getInt(cursor.getColumnIndex("ModelCount"));
+            return Count;
+        }
+        return -1;
     }
 
     public Cursor getUserInfo(String username){
@@ -520,10 +573,6 @@ public class DBHelper extends SQLiteOpenHelper{
         db.execSQL("delete from User_Info");
         db.execSQL("delete from User_Photo");
         db.execSQL("delete from Running_Photo");
-    }
-
-    public void DropUserlevel() {
-        SQLiteDatabase db = getWritableDatabase();
     }
 
 

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-mdpi/logo.png",
-        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-mdpi/logo.png"
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-mdpi/logo.png",
+        "source": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-mdpi/logo.png"
     },
     {
-        "merged": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-mdpi/icon.png",
-        "source": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-mdpi/icon.png"
+        "merged": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/res/merged/debug/drawable-mdpi/icon.png",
+        "source": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/drawable-mdpi/icon.png"
     }
 ]

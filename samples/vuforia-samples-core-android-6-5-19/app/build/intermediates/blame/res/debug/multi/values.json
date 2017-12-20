@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -1244,7 +1244,7 @@
                     "endOffset": 5628
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1738,7 +1738,7 @@
                     "endOffset": 7506
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1795,7 +1795,7 @@
                     "endOffset": 7686
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2099,7 +2099,7 @@
                     "endOffset": 8643
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2118,7 +2118,7 @@
                     "endOffset": 8707
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2403,7 +2403,7 @@
                     "endOffset": 9765
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2498,7 +2498,7 @@
                     "endOffset": 10099
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2517,7 +2517,7 @@
                     "endOffset": 10139
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -4949,7 +4949,7 @@
                     "endOffset": 54811
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -4968,7 +4968,7 @@
                     "endOffset": 54880
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -4987,7 +4987,7 @@
                     "endOffset": 54938
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -5006,7 +5006,7 @@
                     "endOffset": 54987
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -5025,7 +5025,7 @@
                     "endOffset": 55037
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -5044,7 +5044,7 @@
                     "endOffset": 55098
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -5063,7 +5063,7 @@
                     "endOffset": 55164
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -5082,7 +5082,7 @@
                     "endOffset": 55206
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -5101,7 +5101,7 @@
                     "endOffset": 55256
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -5918,7 +5918,7 @@
                     "endOffset": 57774
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -5937,7 +5937,7 @@
                     "endOffset": 57894
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -5956,7 +5956,7 @@
                     "endOffset": 58002
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -5975,7 +5975,7 @@
                     "endOffset": 58158
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -5994,7 +5994,7 @@
                     "endOffset": 58291
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -6013,7 +6013,7 @@
                     "endOffset": 58537
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -6032,7 +6032,7 @@
                     "endOffset": 58730
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -6051,7 +6051,7 @@
                     "endOffset": 58872
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -6070,7 +6070,7 @@
                     "endOffset": 58990
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -6089,7 +6089,7 @@
                     "endOffset": 59245
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -6108,7 +6108,7 @@
                     "endOffset": 59336
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -6127,7 +6127,7 @@
                     "endOffset": 59436
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -6146,7 +6146,7 @@
                     "endOffset": 59519
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -6165,7 +6165,7 @@
                     "endOffset": 59659
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -6184,7 +6184,7 @@
                     "endOffset": 59747
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -6203,7 +6203,7 @@
                     "endOffset": 59875
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -6222,7 +6222,7 @@
                     "endOffset": 59958
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -6241,7 +6241,7 @@
                     "endOffset": 60079
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -6260,7 +6260,7 @@
                     "endOffset": 60168
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -6279,7 +6279,7 @@
                     "endOffset": 60282
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -6298,7 +6298,7 @@
                     "endOffset": 60367
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -6317,7 +6317,7 @@
                     "endOffset": 60517
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -6336,7 +6336,7 @@
                     "endOffset": 60596
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -6355,7 +6355,7 @@
                     "endOffset": 60716
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -6374,7 +6374,7 @@
                     "endOffset": 60805
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -6393,7 +6393,7 @@
                     "endOffset": 60921
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -6412,7 +6412,7 @@
                     "endOffset": 61008
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -6431,7 +6431,7 @@
                     "endOffset": 61113
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -6450,7 +6450,7 @@
                     "endOffset": 61188
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -6469,7 +6469,7 @@
                     "endOffset": 61305
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -6488,7 +6488,7 @@
                     "endOffset": 61383
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -7096,7 +7096,7 @@
                     "endOffset": 63685
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -7115,7 +7115,7 @@
                     "endOffset": 63750
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -7134,7 +7134,7 @@
                     "endOffset": 63786
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -7153,7 +7153,7 @@
                     "endOffset": 63854
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -7172,7 +7172,7 @@
                     "endOffset": 63899
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -7229,7 +7229,7 @@
                     "endOffset": 64206
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -7248,7 +7248,7 @@
                     "endOffset": 64253
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -7267,7 +7267,7 @@
                     "endOffset": 64295
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
@@ -7305,7 +7305,7 @@
                     "endOffset": 64442
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
@@ -7324,7 +7324,7 @@
                     "endOffset": 64486
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 4,
@@ -7343,7 +7343,7 @@
                     "endOffset": 64555
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -7362,7 +7362,7 @@
                     "endOffset": 64616
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
@@ -7381,7 +7381,7 @@
                     "endOffset": 64658
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
@@ -7400,7 +7400,7 @@
                     "endOffset": 64707
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
@@ -7419,7 +7419,7 @@
                     "endOffset": 64752
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 4,
@@ -7438,7 +7438,7 @@
                     "endOffset": 64808
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
@@ -7457,7 +7457,7 @@
                     "endOffset": 64854
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -7476,7 +7476,7 @@
                     "endOffset": 64904
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -7495,7 +7495,7 @@
                     "endOffset": 64956
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -7514,7 +7514,7 @@
                     "endOffset": 65004
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -7533,7 +7533,7 @@
                     "endOffset": 65058
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 4,
@@ -7552,7 +7552,7 @@
                     "endOffset": 65105
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -7571,7 +7571,7 @@
                     "endOffset": 65155
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -7590,7 +7590,7 @@
                     "endOffset": 65207
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -7609,7 +7609,7 @@
                     "endOffset": 65270
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -7628,7 +7628,7 @@
                     "endOffset": 65327
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -7647,7 +7647,7 @@
                     "endOffset": 65427
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -7666,7 +7666,7 @@
                     "endOffset": 65524
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -7685,7 +7685,7 @@
                     "endOffset": 65575
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -7704,7 +7704,7 @@
                     "endOffset": 65644
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -7723,7 +7723,7 @@
                     "endOffset": 65689
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -7742,7 +7742,7 @@
                     "endOffset": 65763
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -7761,7 +7761,7 @@
                     "endOffset": 65835
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -7780,7 +7780,7 @@
                     "endOffset": 65928
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -7799,7 +7799,7 @@
                     "endOffset": 65974
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -7913,7 +7913,7 @@
                     "endOffset": 66825
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
@@ -7951,7 +7951,7 @@
                     "endOffset": 66922
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
@@ -7970,7 +7970,7 @@
                     "endOffset": 66966
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
@@ -7989,7 +7989,7 @@
                     "endOffset": 67028
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -8027,7 +8027,7 @@
                     "endOffset": 67149
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
@@ -8046,7 +8046,7 @@
                     "endOffset": 67257
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -8065,7 +8065,7 @@
                     "endOffset": 67330
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -8084,7 +8084,7 @@
                     "endOffset": 67395
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 4,
@@ -8103,7 +8103,7 @@
                     "endOffset": 67456
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -8122,7 +8122,7 @@
                     "endOffset": 67523
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,
@@ -8141,7 +8141,7 @@
                     "endOffset": 67588
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
@@ -8160,7 +8160,7 @@
                     "endOffset": 67647
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -8179,7 +8179,7 @@
                     "endOffset": 67713
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 4,
@@ -8198,7 +8198,7 @@
                     "endOffset": 67779
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -8217,7 +8217,7 @@
                     "endOffset": 67837
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
@@ -8236,7 +8236,7 @@
                     "endOffset": 67905
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 4,
@@ -8255,7 +8255,7 @@
                     "endOffset": 67951
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -8274,7 +8274,7 @@
                     "endOffset": 68010
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -11671,7 +11671,7 @@
                     "endOffset": 144749
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/styles.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -15447,7 +15447,7 @@
                     "endOffset": 169709
                 },
                 "from": {
-                    "file": "/Users/horseee/Desktop/XRunner v0.0/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/styles.xml",
+                    "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

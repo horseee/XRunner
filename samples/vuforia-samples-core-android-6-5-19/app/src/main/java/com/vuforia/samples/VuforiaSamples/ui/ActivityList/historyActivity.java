@@ -77,8 +77,7 @@ public class historyActivity extends AppCompatActivity {
                 String result = String.format("%.1f kcal",calor);
                 Log.e("calor", "" +result);
 
-                //Bitmap path = mdbhelper.getRunningPathImage(username, time);
-                Bitmap path = null;
+                Bitmap path = mdbhelper.getRunningPathImage(username, time);
 
                 Gerneral temp = new Gerneral(day, Dis, duration, result, path);
                 count ++;
