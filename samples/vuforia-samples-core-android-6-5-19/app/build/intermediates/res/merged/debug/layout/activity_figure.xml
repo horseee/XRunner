@@ -22,26 +22,27 @@
         android:background="#C9C9C9" />
     <TextView
         android:id="@+id/tb_img"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/tb_layout"
-        android:padding="40dp"
         android:background="@color/white"/>
     <TextView
         android:id="@+id/tb_count"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:text="Got 5"
+        android:layout_marginBottom="60dp"
+        android:text="5 Cubes"
         android:enabled="false"
         android:gravity="center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:background="@drawable/start_radius"/>
+        android:background="@drawable/model_info"/>
 
 </RelativeLayout>

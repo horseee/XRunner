@@ -56,31 +56,31 @@ public class FigureActivity extends AppCompatActivity{
                 viewPager.setCurrentItem(tab.getPosition());
                 switch (tab.getPosition()){
                     case 0:
-                        tbImage.setBackgroundResource(R.drawable.mad);
+                        tbImage.setBackgroundResource(R.drawable.tex1);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 0)));
                         break;
                     case 1:
-                        tbImage.setBackgroundResource(R.drawable.happy);
+                        tbImage.setBackgroundResource(R.drawable.tex2);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 1)));
                         break;
                     case 2:
-                        tbImage.setBackgroundResource(R.drawable.surprise);
+                        tbImage.setBackgroundResource(R.drawable.tex3);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 2)));
                         break;
                     case 3:
-                        tbImage.setBackgroundResource(R.drawable.neutral);
+                        tbImage.setBackgroundResource(R.drawable.tex4);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 3)));
                         break;
                     case 4:
-                        tbImage.setBackgroundResource(R.drawable.sad);
+                        tbImage.setBackgroundResource(R.drawable.tex5);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 4)));
                         break;
                     case 5:
-                        tbImage.setBackgroundResource(R.drawable.laugh);
+                        tbImage.setBackgroundResource(R.drawable.tex6);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 5)));
                         break;
                     case 6:
-                        tbImage.setBackgroundResource(R.drawable.surprise);
+                        tbImage.setBackgroundResource(R.drawable.tex7);
                         tbGotNumber.setText("Got " + String.valueOf(mdbhelper.GetModelData(name, 6)));
                 }
                 /*select.setOnTouchListener(new View.OnTouchListener(){

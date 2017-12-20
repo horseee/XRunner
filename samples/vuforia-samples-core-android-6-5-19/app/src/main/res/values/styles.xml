@@ -10,5 +10,8 @@
         <item name="android:windowEnterAnimation">@anim/pop_enter</item>
         <item name="android:windowExitAnimation">@anim/pop_exit</item>
     </style>
-    
+    <style name="mydialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
 </resources>

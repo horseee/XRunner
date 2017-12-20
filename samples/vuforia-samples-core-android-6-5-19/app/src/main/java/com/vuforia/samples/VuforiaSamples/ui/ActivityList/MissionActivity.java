@@ -51,27 +51,26 @@ public class MissionActivity extends AppCompatActivity {
         }
 
         mdbhelper = new DBHelper(this);
-
         MissionList = new ArrayList<>();
-        MissionList.add("a x 1");
-        MissionList.add("b x 2");
-        MissionList.add("d x 1\nf x 3");
-        MissionList.add("c x 2\ng x 2");
-        MissionList.add("b x 2\ne x 3");
-        MissionList.add("a x 3\nc x 2\ne x 1");
-        MissionList.add("b x 1\nd x 3\ng x 3");
-        MissionList.add("d x 4\nf x 4");
-        MissionList.add("a x 3\nd x 6\ng x 1");
-        MissionList.add("c x 12");
-        MissionList.add("b x 7\nf x 7");
+        MissionList.add("This is an easy mission. You can exchange 30 experience using only 1 Emerald. But the diamond seems to lose its value.");
+        MissionList.add("This is also an easy mission. You can exchange 70 experience using 2 Marbles. Better than the first one.");
+        MissionList.add("This mission takes you some time. You can exchange 130 experience using 1 Malachite and 3 Demantoids. ");
+        MissionList.add("In this mission, you can exchange 150 experience using 2 Agates and 2 Ambers. Emmmmmm. Not so good.");
+        MissionList.add("In this mission, you can exchange 200 experience using 2 Marbles and 3 Kyanites. Maybe it's worth trying.");
+        MissionList.add("This mission will take 3 Emeralds and 2 Agates and 1 Kyanite. In turn you will get 250 experience. ");
+        MissionList.add("This mission needs 1 Marble and 3 Malachites and 3 Ambers and give you 280 experience back.  ");
+        MissionList.add("4 Malachites and 4 Demantoids for 350 experience. Since that you have run for a looooong distance. ");
+        MissionList.add("This time you need to give 3 Emerald and 6 Malachites and 1 Amber(totally 10 diamonds) to exchange for 500 exp.");
+        MissionList.add("This is an difficult mission.This mission needs 12 Agates and you will get 700 experience!!");
+        MissionList.add("WOW! The most difficult and valuable mission. Using 7 Marbles and 7 Demantoids and you will get 800 experience!!!");
 
         myAdapter = new MyAdapter(this);
         listView = (ListView)this.findViewById(R.id.item_list);
         items = new ArrayList<HashMap<String, Object>>();
-        for (int i = 1; i < 13; i++) {
+        for (int i = 1; i < 12; i++) {
             HashMap<String, Object> hashMap = new HashMap<String, Object>();
             hashMap.put("seq", "");
-            hashMap.put("name", "Task" + i);
+            hashMap.put("name", "Task " + i);
             items.add(hashMap);
         }
         listView.setAdapter(myAdapter);
@@ -141,6 +140,7 @@ public class MissionActivity extends AppCompatActivity {
         @Override
         public View getView(final int position, View convertView, ViewGroup parent) {
             itemHolder holder = null;
+            int[] ModelExp = {30, 70, 130, 150, 200, 250, 280, 350, 500, 700, 800};
             if (convertView == null) {
                 holder = new itemHolder();
                 convertView = mInflater.inflate(R.layout.item_list, null);
@@ -152,7 +152,8 @@ public class MissionActivity extends AppCompatActivity {
                 holder = (itemHolder)convertView.getTag();
             }
             holder.title.setText((String)items.get(position).get("name"));
-            holder.seq.setText((String)items.get(position).get("seq"));
+            Log.e("Postion", "" + position);
+            holder.seq.setText(ModelExp[position] + " exp");
             holder.item_content.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -170,7 +171,7 @@ public class MissionActivity extends AppCompatActivity {
     }
 
     public void showInfo(final int position){
-        final AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+        final AlertDialog alertDialog = new AlertDialog.Builder(this, R.style.mydialog).create();
         alertDialog.show();
         Window window = alertDialog.getWindow();
         window.setContentView(R.layout.mission_content);

@@ -19,11 +19,15 @@
         android:textAlignment="center"/>
     <TextView
         android:id="@+id/mission_taskcontent"
+        android:layout_alignParentLeft="true"
         android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:layout_height="200dp"
         android:layout_marginTop="120dp"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="#555555"
         android:textAlignment="center"
         />
    
@@ -37,7 +41,6 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/btn_radius"
         android:text="Exchange"
-
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"

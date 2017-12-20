@@ -30,7 +30,7 @@
             android:layout_below="@+id/image_bg">
             <TextView
                 android:id="@+id/nv_username"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
@@ -38,10 +38,9 @@
                 android:textSize="20sp" />
             <TextView
                 android:id="@+id/ct_username"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -53,7 +52,7 @@
                 android:layout_below="@+id/nv_username"/>
             <TextView
                 android:id="@+id/nv_level"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
@@ -62,10 +61,9 @@
                 android:layout_below="@id/nv_username"/>
             <TextView
                 android:id="@+id/ct_level"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -78,7 +76,7 @@
                 android:layout_below="@+id/nv_level"/>
             <TextView
                 android:id="@+id/nv_distance"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
@@ -87,10 +85,9 @@
                 android:layout_below="@id/nv_level" />
             <TextView
                 android:id="@+id/ct_distance"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -103,7 +100,7 @@
                 android:layout_below="@+id/nv_distance"/>
             <TextView
                 android:id="@+id/nv_age"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
@@ -112,10 +109,9 @@
                 android:layout_below="@id/nv_distance" />
             <TextView
                 android:id="@+id/ct_age"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -128,7 +124,7 @@
                 android:layout_below="@+id/nv_age"/>
             <TextView
                 android:id="@+id/nv_gender"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
@@ -137,10 +133,9 @@
                 android:layout_below="@id/nv_age"/>
             <TextView
                 android:id="@+id/ct_gender"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="center"
@@ -153,7 +148,7 @@
                 android:layout_below="@+id/nv_gender"/>
             <TextView
                 android:id="@+id/nv_history"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="5dp"
@@ -162,10 +157,9 @@
                 android:layout_below="@id/nv_gender"/>
             <TextView
                 android:id="@+id/ct_history"
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="55dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textAlignment="center"

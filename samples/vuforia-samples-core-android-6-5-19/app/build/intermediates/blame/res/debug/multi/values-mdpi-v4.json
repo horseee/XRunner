@@ -9,7 +9,7 @@
                     "startOffset": 55,
                     "endLine": 10,
                     "endColumn": 19,
-                    "endOffset": 295
+                    "endOffset": 308
                 },
                 "from": {
                     "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values-mdpi/array.xml",
@@ -19,7 +19,7 @@
                         "startOffset": 55,
                         "endLine": 10,
                         "endColumn": 19,
-                        "endOffset": 295
+                        "endOffset": 308
                     }
                 }
             },
@@ -27,9 +27,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 300,
+                    "startOffset": 313,
                     "endColumn": 48,
-                    "endOffset": 344
+                    "endOffset": 357
                 },
                 "from": {
                     "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values-mdpi/dimens.xml"
@@ -39,9 +39,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 349,
+                    "startOffset": 362,
                     "endColumn": 49,
-                    "endOffset": 394
+                    "endOffset": 407
                 },
                 "from": {
                     "file": "/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/src/main/res/values-mdpi/dimens.xml"

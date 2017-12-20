@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="tab_title">
-        <item>Model</item>
-        <item>Model</item>
-        <item>Model</item>
-        <item>Model</item>
-        <item>Model</item>
-        <item>Model</item>
-        <item>Model</item>
+        <item>Emerald</item>
+        <item>Marble</item>
+        <item>Agate</item>
+        <item>Malachite</item>
+        <item>Kyanite</item>
+        <item>Demantoid</item>
+        <item>Amber</item>
     </string-array>
 </resources>

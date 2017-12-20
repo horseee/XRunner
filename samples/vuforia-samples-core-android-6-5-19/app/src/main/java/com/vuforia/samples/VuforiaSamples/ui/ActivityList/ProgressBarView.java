@@ -140,7 +140,7 @@ public class ProgressBarView extends View{
         canvas.drawText(text, centerX - textLen / 2, centerY - 30 + h1 / 2, textPaint);
         //下一行文字
         textPaint.setTextSize(circleRadius / 6);
-        text = "Total Distance/km";
+        text = "Total Distance/m";
         textLen = textPaint.measureText(text);
         textPaint.getTextBounds(text, 0, text.length(), textBounds);
         float h2 = textBounds.height();
