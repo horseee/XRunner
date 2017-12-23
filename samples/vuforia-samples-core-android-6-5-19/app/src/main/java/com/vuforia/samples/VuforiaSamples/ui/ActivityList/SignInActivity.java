@@ -45,7 +45,6 @@ public class SignInActivity extends Activity {
                 String name = username.getText().toString();
                 String key = password.getText().toString();
                 boolean IsCorrect = mdbhelper.IsPasswordCorrect(name, key);
-                Log.e("result ", "+" + IsCorrect);
                 if (IsCorrect) {
                     Intent i = new Intent(SignInActivity.this, MainActivity.class);
                     i.putExtra("UserID", name);

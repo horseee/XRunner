@@ -282,7 +282,7 @@ public class DBHelper extends SQLiteOpenHelper{
         }
         tempDis += distance;
         tempExp += distance;
-        if (distance > 100) tempExp += 50;
+        if (distance > 300) tempExp += 50;
 
         if (tempExp < 500) level = 1;
         else if (tempExp < 2000) level = 2;
@@ -323,8 +323,8 @@ public class DBHelper extends SQLiteOpenHelper{
             Log.e("tempEXP", ""+tempExp);
         }
         else return;
-
         tempExp += ModelExp[ModelID];
+
         if (tempExp < 500) level = 1;
         else if (tempExp < 2000) level = 2;
         else if (tempExp < 4000) level = 3;
@@ -501,13 +501,11 @@ public class DBHelper extends SQLiteOpenHelper{
         SQLiteDatabase db = getWritableDatabase();
         String selection = "UserID = ?";  // "?" is important .If no "?", query will not call the selectionArgs
         String[] selectionArgs = {ID};
-        //Cursor is the pointer to header of the first record that meet the condition.
-        //Cursor query  (String table, String[] columns, String selection, String[] selectionArgs,String groupBy, String having, String orderBy, String limit)
         Cursor cursor = db.query(UserDatabase, null, selection, selectionArgs, null, null, null);
         if (cursor != null) {
             while (cursor.moveToNext()) {
                 String CorrectKey = cursor.getString(cursor.getColumnIndex(Password));
-                Log.e(TAG, "GETKEY = " + CorrectKey);       //Log is to show the record in the android monitor
+                Log.e(TAG, "GETKEY = " + CorrectKey);
                 return  CorrectKey.equals(key);
             }
         }

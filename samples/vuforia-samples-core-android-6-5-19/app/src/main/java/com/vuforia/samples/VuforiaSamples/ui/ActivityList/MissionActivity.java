@@ -282,7 +282,6 @@ public class MissionActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 switch (position) {
-
                     case 0:
                         model[0] -= 1;
                         mdbhelper.updateModelData(name, 0, false, 1);

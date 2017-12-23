@@ -97,7 +97,7 @@ public class SignUpActivity extends Activity {
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_PICK);
                 intent.setType("image/*");
-                startActivityForResult(intent, PHOTO_REQUEST_GALLERY); //开启一个带有返回值的Activity，请求码为PHOTO_REQUEST_GALLERY
+                startActivityForResult(intent, PHOTO_REQUEST_GALLERY);
             }
         });
 

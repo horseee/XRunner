@@ -43,21 +43,18 @@ public class ResultActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.e(TAG, "Map has been successfully finished!2222");
+        Log.e(TAG, "Map has been successfully finished!");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
         mdbhelper = new DBHelper(this);
         LatlngList = new ArrayList<LatLng>();
         SpeedList = new ArrayList<Float>();
 
-        //int ListLength = getIntent().getIntExtra("PointNumber", 0);
-        //Log.e("Point total number ", ":"+ListLength);
         Intent i = getIntent();
         dateID = i.getStringExtra("DateID");
         Username = i.getStringExtra("UserID");
         Log.e("DateID ", " " + dateID);
         Log.e("UserID", Username);
-
 
         Cursor cursor = mdbhelper.getPersonRecord(Username);
         if (cursor != null) {
@@ -70,7 +67,6 @@ public class ResultActivity extends Activity {
                 Log.e("RunDis ", " " + Distance);
             }
         }
-
 
         cursor = mdbhelper.getOnePointData(dateID);
         if (cursor != null) {
@@ -93,7 +89,6 @@ public class ResultActivity extends Activity {
 
         mapView = (MapView) findViewById(R.id.map_showpath);
         Log.e(TAG, "Map has been successfully started!");
-        //在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，实现地图生命周期管理
         mapView.onCreate(savedInstanceState);
 
         if (aMap == null) {

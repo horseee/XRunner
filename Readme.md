@@ -1,6 +1,6 @@
 ## XRunner
 
-An android app with AR. 
+This is an Android app that encourages you to exercise. It has a running system that uses the AR to collect models during jogging.
 
 ### Install
 
@@ -14,7 +14,17 @@ An android app with AR.
 ```	
 ### Developer Contributions
 
-Horseee:   
-JamieCCCCC:
+Horseee:  
+ 
+* establish the database
+* Tracking and recording of exercise data
+* Implement the mission, experience system and mission completeness tracking
+* Trajactory drawing
+
+JamieCCCCC:  
+
+*  Design and Implementation of UI
+*  Import and control of the model
+*  import the AR camera
 
 Copyright © 2017年 JamieCCCCC, horseee from ZJU . All rights reserved.

@@ -274,7 +274,6 @@ public class ImageTargets extends Activity implements SampleApplicationControl, 
                         String result = String.format("%.1f kcal",calor);
                         Calorie.setText(result);
 
-
                         if (distance > randomNumber-1) {
                             if (!isVibra) {
                                 vibrator.vibrate(1000);//震动一秒
@@ -294,7 +293,7 @@ public class ImageTargets extends Activity implements SampleApplicationControl, 
                             if (var.getVar() == 1)
                                 mdbhelper.updateModelData(name, ModelNumber, true, 1);
 
-                            int newDis = (int)(Math.random()*1);
+                            int newDis = (int)(Math.random()*800);
                             randomNumber = newDis + (int)distance;
                             Log.e("random", ""+randomNumber);
                             cmd = 6;
