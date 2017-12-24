@@ -35,7 +35,7 @@ public class SignInActivity extends Activity {
                 imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
             }
         });
-
+        //mdbhelper.DropData();
         //mdbhelper.DropUserLevel();
         //mdbhelper.getUserLevel((username.getText()).toString());
         signin = (Button) findViewById(R.id.button1);

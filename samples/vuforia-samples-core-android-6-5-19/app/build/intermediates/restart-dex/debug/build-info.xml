@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
     build-mode="FULL"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1514018349717"
+    timestamp="1514092708379"
     token="-6423603050564410073"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="9594" />
+        duration="284" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3206" />
+        duration="5" />
     <task
         name="verifier"
-        duration="148" />
+        duration="0" />
 
     <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/outputs/apk/vuforia-samples-core-android-6-5-19-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -51,39 +42,39 @@
         location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/outputs/apk/vuforia-samples-core-android-6-5-19-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1514018349717"
+        timestamp="1514092708379"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/outputs/apk/vuforia-samples-core-android-6-5-19-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -92,14 +83,23 @@
             location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/horseee/Desktop/XRunner/samples/vuforia-samples-core-android-6-5-19/app/build/outputs/apk/vuforia-samples-core-android-6-5-19-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

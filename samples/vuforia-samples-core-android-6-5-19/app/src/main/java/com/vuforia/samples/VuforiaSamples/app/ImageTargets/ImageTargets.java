@@ -208,7 +208,7 @@ public class ImageTargets extends Activity implements SampleApplicationControl, 
         distance = 0;
         isFinish = false;
         //randomNumber = (int) (Math.random()*800 + 200);//产生20-30的随机数
-        randomNumber = 0;
+        randomNumber = 150;
         Log.e("random", "" + randomNumber);
 
         //开始定位
@@ -293,7 +293,7 @@ public class ImageTargets extends Activity implements SampleApplicationControl, 
                             if (var.getVar() == 1)
                                 mdbhelper.updateModelData(name, ModelNumber, true, 1);
 
-                            int newDis = (int)(Math.random()*800);
+                            int newDis = (int)(Math.random()*200);
                             randomNumber = newDis + (int)distance;
                             Log.e("random", ""+randomNumber);
                             cmd = 6;

@@ -135,6 +135,7 @@ public class MainActivity extends Activity {
                         Intent i = new Intent(MainActivity.this, MissionActivity.class);
                         i.putExtra("UserID", name);
                         startActivity(i);
+                        finish();
                         break;
                 }
                 return true;

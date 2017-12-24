@@ -7,6 +7,7 @@ import java.util.List;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +25,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.BaseAdapter;
 import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import com.vuforia.samples.VuforiaSamples.R;
 
@@ -83,6 +85,9 @@ public class MissionActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()) {
             case android.R.id.home:
+                Intent i = new Intent(MissionActivity.this, MainActivity.class);
+                i.putExtra("UserID", name);
+                startActivity(i);
                 finish();
                 return true;
             default:
@@ -197,70 +202,115 @@ public class MissionActivity extends AppCompatActivity {
 
         switch (position) {
             case 0:
-                if (model[0] >= 1)
+                if (model[0] >= 1){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else {
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
+
                 break;
             case 1:
-                if (model[1] >= 2)
+                if (model[1] >= 2){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 2:
-                if (model[3] >= 1 && model[5] >= 3)
+                if (model[3] >= 1 && model[5] >= 3){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 3:
-                if (model[2] >= 2 && model[6] >=2)
+                if (model[2] >= 2 && model[6] >=2){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 4:
-                if (model[1] >= 2 && model[4] >= 3)
+                if (model[1] >= 2 && model[4] >= 3){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 5:
-                if (model[0] >= 3 && model[2] >= 2 && model[4] >= 1)
+                if (model[0] >= 3 && model[2] >= 2 && model[4] >= 1){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 6:
-                if (model[1] >= 1 && model[3] >= 3 && model[6] >= 3)
+                if (model[1] >= 1 && model[3] >= 3 && model[6] >= 3){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 7:
-                if (model[3] >= 4 && model[5] >= 4)
+                if (model[3] >= 4 && model[5] >= 4){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 8:
-                if (model[0] >= 3 && model[3] >= 6 && model[6] >= 1)
+                if (model[0] >= 3 && model[3] >= 6 && model[6] >= 1){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 9:
-                if (model[2] >= 12)
+                if (model[2] >= 12){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
             case 10:
-                if (model[1] >= 7 && model[5] >= 7)
+                if (model[1] >= 7 && model[5] >= 7){
                     accept.setEnabled(true);
-                else
+                    accept.setTextColor(Color.rgb(255, 255, 255));
+                }
+                else{
                     accept.setEnabled(false);
+                    accept.setTextColor(Color.rgb(169, 169, 169));
+                }
                 break;
 
             default:
@@ -286,19 +336,32 @@ public class MissionActivity extends AppCompatActivity {
                         model[0] -= 1;
                         mdbhelper.updateModelData(name, 0, false, 1);
                         mdbhelper.updateExpandLevel(name, 0);
-                        if (model[0] >= 1)
+                        Toast.makeText(getApplicationContext(), "Get 30 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[0] >= 1){
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else {
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
+
                         break;
                     case 1:
                         model[1] -= 2;
                         mdbhelper.updateModelData(name, 1, false, 2);
                         mdbhelper.updateExpandLevel(name, 1);
-                        if (model[1] >= 2)
+                        Toast.makeText(getApplicationContext(), "Get 70 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[1] >= 2){
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 2:
                         model[3] -= 1;
@@ -306,10 +369,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 3, false, 1);
                         mdbhelper.updateModelData(name, 5, false, 3);
                         mdbhelper.updateExpandLevel(name, 2);
-                        if (model[3] >= 1 && model[5] >= 3)
+                        Toast.makeText(getApplicationContext(), "Get 130 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[3] >= 1 && model[5] >= 3){
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 3:
                         model[2] -= 2;
@@ -317,10 +386,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 2, false, 2);
                         mdbhelper.updateModelData(name, 6, false, 2);
                         mdbhelper.updateExpandLevel(name, 3);
-                        if (model[2] >= 2 && model[6] >= 2)
+                        Toast.makeText(getApplicationContext(), "Get 150 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[2] >= 2 && model[6] >= 2){
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 4:
                         model[1] -= 2;
@@ -328,10 +403,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 1, false, 2);
                         mdbhelper.updateModelData(name, 4, false, 3);
                         mdbhelper.updateExpandLevel(name, 4);
-                        if (model[1] >= 2 && model[4] >= 3)
+                        Toast.makeText(getApplicationContext(), "Get 200 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[1] >= 2 && model[4] >= 3){
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 5:
                         model[0] -= 3;
@@ -341,10 +422,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 0, false, 3);
                         mdbhelper.updateModelData(name, 2, false, 2);
                         mdbhelper.updateExpandLevel(name, 5);
-                        if (model[0] >= 3 && model[2] >= 2 && model[4] >= 1)
+                        Toast.makeText(getApplicationContext(), "Get 250 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[0] >= 3 && model[2] >= 2 && model[4] >= 1){
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 6:
                         model[1] -= 1;
@@ -354,10 +441,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 3, false, 3);
                         mdbhelper.updateModelData(name, 6, false, 3);
                         mdbhelper.updateExpandLevel(name, 6);
-                        if (model[1] >= 1 && model[3] >= 3 && model[6] >= 3)
+                        Toast.makeText(getApplicationContext(), "Get 280 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[1] >= 1 && model[3] >= 3 && model[6] >= 3) {
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 7:
 
@@ -366,10 +459,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 3, false, 4);
                         mdbhelper.updateModelData(name, 5, false, 4);
                         mdbhelper.updateExpandLevel(name, 7);
-                        if (model[3] >= 4 && model[5] >= 4)
+                        Toast.makeText(getApplicationContext(), "Get 350 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[3] >= 4 && model[5] >= 4) {
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 8:
                         model[0] -= 3;
@@ -379,19 +478,31 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 3, false, 6);
                         mdbhelper.updateModelData(name, 6, false, 1);
                         mdbhelper.updateExpandLevel(name, 8);
-                        if (model[0] >= 3 && model[3] >= 6 && model[6] >= 1)
+                        Toast.makeText(getApplicationContext(), "Get 500 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[0] >= 3 && model[3] >= 6 && model[6] >= 1) {
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 9:
                         model[2] -= 12;
                         mdbhelper.updateModelData(name, 2, false, 12);
                         mdbhelper.updateExpandLevel(name, 9);
-                        if (model[2] >= 12)
+                        Toast.makeText(getApplicationContext(), "Get 800 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[2] >= 12) {
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                     case 10:
                         model[1] -= 7;
@@ -399,10 +510,16 @@ public class MissionActivity extends AppCompatActivity {
                         mdbhelper.updateModelData(name, 1, false, 7);
                         mdbhelper.updateModelData(name, 5, false, 7);
                         mdbhelper.updateExpandLevel(name, 10);
-                        if (model[1] >= 7 && model[5] >= 7)
+                        Toast.makeText(getApplicationContext(), "Get 800 exp",
+                                Toast.LENGTH_SHORT).show();
+                        if (model[1] >= 7 && model[5] >= 7) {
                             accept.setEnabled(true);
-                        else
+                            accept.setTextColor(Color.rgb(255, 255, 255));
+                        }
+                        else{
                             accept.setEnabled(false);
+                            accept.setTextColor(Color.rgb(169, 169, 169));
+                        }
                         break;
                 }
             }

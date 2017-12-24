@@ -571,6 +571,7 @@ public class DBHelper extends SQLiteOpenHelper{
         db.execSQL("delete from User_Info");
         db.execSQL("delete from User_Photo");
         db.execSQL("delete from Running_Photo");
+        db.execSQL("delete from User_Model");
     }
 
 
